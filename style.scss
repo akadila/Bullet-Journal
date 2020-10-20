@@ -1,8 +1,20 @@
 *{
     box-sizing:border-box;
+    background-color:rgb(221,160,221);
     margin:0;
     padding:0;
+    color:purple;
+    text-decoration-color: whitesmoke;
+    font-size: normal;
+    align-items: center;
+
+
 }
+html,
+body{
+    align-items: center;
+}
+
 h1{
     text-align: center;
 }
@@ -11,21 +23,35 @@ h1{
 #app{
     display: flex;
     margin:auto;
+    padding:auto;
+    border-radius: 10px;
 
 }
 
 .jours{
     display: flex;
     border:1px solid purple;
+    text-align: center;
+    font-size:medium;
+    color:purple;
+    background-color: whitesmoke;
+
+
 }
 .hobbies{
     border:1px solid purple;
     padding: 0.8px;
+    font-style: italic;
+    text-align: left;
+    background-color: whitesmoke;
+
 }
 .blt> input{
     /*border-radius: ;*/
     margin-top: 12px;
     width:14%;
+    background-color: whitesmoke;
+
     
 }
 .blt{
@@ -33,4 +59,19 @@ h1{
     height:182px;
     border:1px solid magenta;
     flex-wrap: wrap;
+    background-color: whitesmoke;
+
+}
+.left{
+    background-color: whitesmoke;
+}
+.right{
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+.container{
+margin: auto;
+padding:auto;
+border-radius: 5px;
 }
