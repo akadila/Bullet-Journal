@@ -23,7 +23,7 @@ hobbies.forEach(function (hobby) {
 left += "</div>";
 
 var blt = '<div class="blt">';
-for (var i = 0; i < 42; i++) {
+for (var i = 0; i <42; i++) {
   blt += bullets;
 }
 blt += "</div>";
